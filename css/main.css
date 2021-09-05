@@ -1,0 +1,339 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background: #212121;
+    position: fixed;
+    top: 0 center;
+    z-index: 1000;
+}
+
+.lol {
+    width: 100%;
+    height: 50px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 70px;
+    margin: 0;
+    list-style-type: none;
+    
+
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 43px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+    
+    }
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    font-weight: 200;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 6px;
+
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+
+}
+
+
+
+.subheader .subheader_phone {
+    display: block;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: right;
+
+}
+
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 162px;
+    height: 46px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/footer/uber_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+
+}
+
+.promo .promo_subheader {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+
+}
+
+
+.promo .promo_descr {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 63px;color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+
+
+}
+
+.causes {
+    min-height: 850px;
+    padding: 18px 0;
+    /* margin: 0 auto; */
+    margin-bottom: 60px;
+}
+
+.causes_substrate {
+    display: block;
+    padding: 18px auto;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-size: 11px;
+    color: #FFFFFF;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.causes_header {
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 48px;
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.causes .causes_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    margin-right: 33px;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    border-radius: 50%;
+    
+}
+
+.causes .col-md-6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.causes .causes_text {
+    width: 371px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    
+
+}
+.causes .causes_text span {
+    color: #1EACC7;
+
+}
+
+.subtitle {
+    margin-top: 19px;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #222222;
+}
+
+.mobile {
+    min-height: 864px;
+    padding: 29px 0 80px 0;
+    background: url('../img/mobile_bg.png') center center/cover no-repeat;
+
+}
+
+.mobile_item {
+    position: relative;
+    width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding-top: 92px;
+}
+
+.mobile_item_1 {
+    background: url('../img/icon/card_1.jpg');
+}
+.mobile_item_2 {
+    background: url('../img/icon/card_2.jpg');
+}
+.mobile_item_3 {
+    background: url('../img/icon/card_3.jpg');
+}
+.mobile_item_4 {
+    background: url('../img/icon/card_4.jpg');
+}
+.mobile_item_5 {
+    background: url('../img/icon/card_5.jpg');
+}
+.mobile_item_6 {
+    background: url('../img/icon/card_6.jpg');
+}
+
+.mobile .row {
+    margin-top: 32px;
+}
+
+.mobile_item_subtitle {
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mobile_item_plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 29px;
+    height: 29px;
+    background: #000000;
+    margin: 0 auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.car {
+    min-height: 898px;
+    padding: 57px 0 137px 0;
+    background: url("../img/Rectangle\ 20\ copy\ 5.png") center center/cover no-repeat
+}
+
+.car .causes_substrate {
+    display: block;
+    padding: 18px auto;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #FFFFFF;
+    font-size: 11px;
+    color: #070716;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.car .causes_header {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.car .subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.car .car_img img {
+    display: block;
+    margin: 57px auto;
+}
+
+.car .sub_footer {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+}
